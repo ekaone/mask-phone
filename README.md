@@ -844,8 +844,9 @@ MIT © Eka Prasetia
 
 ## Related Packages
 
-- [@ekaone/mask-card](https://www.npmjs.com/package/@ekaone/mask-card) - Credit card masking library
-- [@ekaone/mask-email](https://www.npmjs.com/package/@ekaone/mask-email) - Email address masking library
+- [Credit card masking library](https://github.com/ekaone/mask-card)
+- [Token masking library](https://github.com/ekaone/mask-token)
+- [Email masking library](https://github.com/ekaone/mask-email)
 
 ---
 
