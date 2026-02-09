@@ -410,7 +410,7 @@ const maskedPhone = maskPhone(phoneNumber, {
 });
 
 console.log(`Contact: ${maskedPhone}`);
-// Output: "Contact: +62 *** **** 7890"
+// Output: "Contact: +62 8** **** 7890"
 ```
 
 ### User Profile Display
@@ -558,7 +558,7 @@ maskPhone('+86 138 0013 8000', { preserveFormat: true });
 
 // Russia
 maskPhone('+7 495 123-45-67', { preserveFormat: true });
-// Output: '+* *** ***-**-67'
+// Output: '+* *** ***-45-67'
 ```
 
 ## Security & Privacy
@@ -636,11 +636,11 @@ maskPhone('   ');
 
 // Mixed characters (auto-strips non-digits except +)
 maskPhone('+1-ABC-234-5678');
-// Output: '+******5678'
+// Output: '+****5678'
 
 // Multiple + signs (keeps only digits and first +)
 maskPhone('++1234567890');
-// Output: '+******7890'
+// Output: '++******7890'
 
 // Only + sign
 maskPhone('+');
